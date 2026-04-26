@@ -671,3 +671,16 @@ nav h3 {
       
     }
 }
+#contact {
+    background-color: #EFEAE3;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 3vw;
+}
+
+#contact p {
+    font-size: 1.2vw;
+}

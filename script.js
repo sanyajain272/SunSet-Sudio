@@ -60,3 +60,11 @@ swiperAnimation()
 page4Animation()
 menuAnimation()
 loaderAnimation()
+
+document.querySelector('a[href="#contact"]').addEventListener("click", function(e) {
+    e.preventDefault();
+
+    document.querySelector("#contact").scrollIntoView({
+        behavior: "smooth"
+    });
+});
