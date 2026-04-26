@@ -2,10 +2,6 @@
 
 A modern and visually engaging portfolio website inspired by creative studio designs. This project showcases smooth animations, responsive layout, and an interactive user experience.
 
-##  Live Demo
-
-🔗 https://sun-down-studio-gamma.vercel.app/
-
 ##  Features
 
 * Smooth scrolling animations
