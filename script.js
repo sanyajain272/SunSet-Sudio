@@ -61,10 +61,11 @@ page4Animation()
 menuAnimation()
 loaderAnimation()
 
-document.querySelector('a[href="#contact"]').addEventListener("click", function(e) {
-    e.preventDefault();
+const contactBtn = document.querySelector('a[href="#contact"]');
 
-    document.querySelector("#contact").scrollIntoView({
-        behavior: "smooth"
+if (contactBtn) {
+    contactBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        scroll.scrollTo("#contact");
     });
-});
+}
