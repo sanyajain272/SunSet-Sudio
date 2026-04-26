@@ -1,16 +1,16 @@
-#  Sunset Studio
+# Sunset Studio
 
 A modern and visually engaging portfolio website inspired by creative studio design. This project focuses on smooth animations, responsive layout, and an interactive user experience.
 
-##  Features
+## Features
 
 * Smooth scrolling animations
 * Interactive navigation menu
-* Responsive design (mobile + desktop)
+* Responsive design (mobile and desktop)
 * Modern UI/UX layout
-* Contact section at the bottom
+* Contact section
 
-##  Tech Stack
+## Tech Stack
 
 * HTML5
 * CSS3
@@ -18,7 +18,7 @@ A modern and visually engaging portfolio website inspired by creative studio des
 * Locomotive Scroll
 * Swiper.js
 
-##  Project Structure
+## Project Structure
 
 Sunset-Studio/
 │── index.html
@@ -26,19 +26,18 @@ Sunset-Studio/
 │── script.js
 │── video.mp4
 
-##  Run Locally
+## Run Locally
 
-1. Clone the repo
-2. Open in VS Code
+1. Clone the repository
+2. Open the project in VS Code
 3. Run using Live Server
 
-##  Contact
+## Contact
 
 * Email: [sanya@gmail.com](mailto:sanya@gmail.com)
 * Location: Bhopal, India
 
----
+## Note
 
-##  Note
+This project is customized and modified for learning and portfolio purposes.
 
-This project is customized and modified by me for learning and portfolio purposes.
