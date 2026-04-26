@@ -1,10 +1,10 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
-
-
 function page4Animation() {
+    const glow = document.querySelector(".cursor-glow");
+
+document.addEventListener("mousemove", (e) => {
+    glow.style.left = e.clientX + "px";
+    glow.style.top = e.clientY + "px";
+});
     var elemC = document.querySelector("#elem-container")
     var fixed = document.querySelector("#fixed-image")
     elemC.addEventListener("mouseenter", function () {
@@ -25,11 +25,18 @@ function page4Animation() {
 
 function swiperAnimation() {
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: "auto",
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
         centeredSlides: true,
-        spaceBetween: 100,
+        autoplay: {
+            delay: 2000,
+        }
     });
 }
+
+swiperAnimation();
+
 function menuAnimation() {
 
     var menu = document.querySelector("nav h3")
@@ -66,6 +73,12 @@ const contactBtn = document.querySelector('a[href="#contact"]');
 if (contactBtn) {
     contactBtn.addEventListener("click", function(e) {
         e.preventDefault();
-        scroll.scrollTo("#contact");
+
+        const section = document.querySelector("#contact");
+        if (section) {
+            section.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
     });
 }
