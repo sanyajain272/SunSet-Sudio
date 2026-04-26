@@ -51,7 +51,7 @@ git clone https://github.com/sanyajain272/SunSet-Sudio.git
 
 ##  Contact
 
-* Email: [sanya@gmail.com](mailto:sanya@gmail.com)
+* Email: [jainsanya72@gmail.com](mailto:jainsanya72@gmail.com)
 * Location: Bhopal, India
 
 ---
